@@ -1,0 +1,280 @@
+/* Generated from Figma Variables. First mode = :root default.
+   FLOAT tokens are unitless — multiply by 1px in calc() where a length is needed. */
+
+:root {
+  --alpha-gray-500: rgb(214,219,226); /* @kind color */
+  --alpha-gray-700: rgb(137,141,156); /* @kind color */
+  --alpha-gray-800-opacity-30: rgba(88,93,114,0.3); /* @kind color */
+  --alpha-gray-800-opacity-70: rgba(88,93,114,0.7); /* @kind color */
+  --alpha-gray-900-2: rgb(34,34,34); /* @kind color */
+  --alpha-gray-900-opacity-16: rgba(34,34,34,0.16); /* @kind color */
+  --alpha-gray-900: rgb(34,34,34); /* @kind color */
+  --alpha-white-100-2: rgb(255,255,255); /* @kind color */
+  --alpha-white-100: rgb(255,255,255); /* @kind color */
+  --base-size-sizebase3xs: var(--size-spacing-numunit-2); /* @kind spacing */
+  --beige-f5f3f1: rgb(245,243,241); /* @kind color */
+  --bg-gray-400: rgb(228,230,235); /* @kind color */
+  --bg-gray-500: var(--alpha-gray-500); /* @kind color */
+  --bg-gray-50: rgb(245,246,248); /* @kind color */
+  --bg-gray-800: rgb(88,93,114); /* @kind color */
+  --bg-gray-900-2: rgb(34,34,34); /* @kind color */
+  --bg-gray-900-3: var(--alpha-gray-900); /* @kind color */
+  --bg-gray-900: var(--alpha-gray-900); /* @kind color */
+  --bg-opacity-800-opacity-30: var(--alpha-gray-800-opacity-30); /* @kind color */
+  --bg-opacity-900-opacity-16: var(--alpha-gray-900-opacity-16); /* @kind color */
+  --bg-white: rgb(255,255,255); /* @kind color */
+  --black-222: rgb(34,34,34); /* @kind color */
+  --border-quinary: rgb(214,219,226); /* @kind color */
+  --border-widget-line: rgb(229,229,230); /* @kind color */
+  --color-base-black: rgb(0,0,0); /* @kind color */
+  --color-base-white: rgb(255,255,255); /* @kind color */
+  --color-gray-100: rgb(230,230,230); /* @kind color */
+  --color-gray-200: rgb(216,216,216); /* @kind color */
+  --color-gray-300: rgb(204,204,204); /* @kind color */
+  --color-gray-400: rgb(187,187,187); /* @kind color */
+  --color-gray-500: rgb(184,184,184); /* @kind color */
+  --color-gray-50: rgb(242,242,242); /* @kind color */
+  --color-gray-600: rgb(153,153,153); /* @kind color */
+  --color-gray-700: rgb(103,103,103); /* @kind color */
+  --color-gray-800: rgb(77,77,77); /* @kind color */
+  --color-gray-900: rgb(51,51,51); /* @kind color */
+  --color-opacity-20: 20; /* @kind other */
+  --color-opacity-40: 40; /* @kind other */
+  --color-opacity-60: 60; /* @kind other */
+  --color-opacity-80: 80; /* @kind other */
+  --color-primary-100-2: rgb(232,239,252); /* @kind color */
+  --color-primary-b100: rgb(121,161,237); /* @kind color */
+  --color-primary-b200: rgb(63,121,229); /* @kind color */
+  --color-primary-b300: rgb(24,93,224); /* @kind color */
+  --color-primary-b400: rgb(17,65,157); /* @kind color */
+  --color-primary-b500: rgb(15,57,137); /* @kind color */
+  --color-primary-b50: rgb(232,239,252); /* @kind color */
+  --color-primary-b75: rgb(160,189,242); /* @kind color */
+  --font-family: "Noto Sans KR"; /* @kind font */
+  --font-weight-bold: "Bold"; /* @kind other */
+  --font-weight-medium: "Medium"; /* @kind other */
+  --font-weight-regular: "Regular"; /* @kind other */
+  --grey-858585: rgb(133,133,133); /* @kind color */
+  --grey-9a9a9a: rgb(154,154,154); /* @kind color */
+  --grey-e1e1e1: rgb(225,225,225); /* @kind color */
+  --grey-efefef: rgb(239,239,239); /* @kind color */
+  --grey-f5f5f5: rgb(245,245,245); /* @kind color */
+  --ico-base-2: var(--alpha-gray-900); /* @kind color */
+  --ico-base: var(--alpha-gray-900); /* @kind color */
+  --ico-color-theme-secondary-1: var(--secondary-1); /* @kind color */
+  --ico-invert-2: var(--alpha-white-100); /* @kind color */
+  --ico-invert: var(--alpha-white-100); /* @kind color */
+  --ico-tertiary-2: rgba(88,93,114,0.7); /* @kind color */
+  --ico-tertiary: var(--alpha-gray-800-opacity-70); /* @kind color */
+  --letter-spacing-01: -0.4; /* @kind other */
+  --new-group-edeff2-low-emphasis-3: rgb(237,239,242); /* @kind color */
+  --radius-10: 10; /* @kind radius */
+  --radius-12: var(--unit-12); /* @kind radius */
+  --radius-16: var(--unit-16); /* @kind radius */
+  --radius-4: var(--unit-4); /* @kind radius */
+  --radius-6: 6; /* @kind radius */
+  --radius-8: var(--unit-8); /* @kind radius */
+  --radius-max: var(--unit-max); /* @kind radius */
+  --radius-radius-100-2: var(--radius-radius-100); /* @kind radius */
+  --radius-radius-100: 100; /* @kind radius */
+  --radius-radius-12: 12; /* @kind radius */
+  --radius-radius-14: 14; /* @kind radius */
+  --radius-radius-4-2: var(--radius-radius-4); /* @kind radius */
+  --radius-radius-4: 4; /* @kind radius */
+  --radius-radius-6: 6; /* @kind radius */
+  --radius-radius100: 100; /* @kind radius */
+  --secondary-1: var(--theme-bluebasic-300); /* @kind color */
+  --size-12: var(--unit-12); /* @kind font */
+  --size-13: 13; /* @kind font */
+  --size-14: 14; /* @kind font */
+  --size-16: var(--unit-16); /* @kind font */
+  --size-18: var(--unit-18); /* @kind font */
+  --size-20: var(--unit-20); /* @kind font */
+  --size-22: 22; /* @kind font */
+  --size-24: var(--unit-24); /* @kind font */
+  --size-26: 26; /* @kind font */
+  --size-32: var(--unit-32); /* @kind font */
+  --size-42: 42; /* @kind font */
+  --size-46: 46; /* @kind font */
+  --size-48: var(--unit-48); /* @kind font */
+  --size-60: var(--unit-60); /* @kind font */
+  --size-spacing-numunit-2: 8; /* @kind spacing */
+  --spacing-0: var(--unit-0); /* @kind spacing */
+  --spacing-12: var(--unit-12); /* @kind spacing */
+  --spacing-14: var(--unit-14); /* @kind spacing */
+  --spacing-16: var(--unit-16); /* @kind spacing */
+  --spacing-18: var(--unit-18); /* @kind spacing */
+  --spacing-20: var(--unit-20); /* @kind spacing */
+  --spacing-24: var(--unit-24); /* @kind spacing */
+  --spacing-28: var(--unit-28); /* @kind spacing */
+  --spacing-2: var(--unit-2); /* @kind spacing */
+  --spacing-32: var(--unit-32); /* @kind spacing */
+  --spacing-36: var(--unit-36); /* @kind spacing */
+  --spacing-40: var(--unit-40); /* @kind spacing */
+  --spacing-48: var(--unit-48); /* @kind spacing */
+  --spacing-4: var(--unit-4); /* @kind spacing */
+  --spacing-56: var(--unit-56); /* @kind spacing */
+  --spacing-64: var(--unit-64); /* @kind spacing */
+  --spacing-6: 6; /* @kind spacing */
+  --spacing-72: var(--unit-72); /* @kind spacing */
+  --spacing-80: var(--unit-80); /* @kind spacing */
+  --spacing-8: var(--unit-8); /* @kind spacing */
+  --spacing-space-10-2: var(--spacing-space-10); /* @kind spacing */
+  --spacing-space-10: 10; /* @kind spacing */
+  --spacing-space-12-2: var(--spacing-space-12); /* @kind spacing */
+  --spacing-space-12: 12; /* @kind spacing */
+  --spacing-space-14: 14; /* @kind spacing */
+  --spacing-space-16-2: var(--spacing-space-16); /* @kind spacing */
+  --spacing-space-16: 16; /* @kind spacing */
+  --spacing-space-2-2: var(--spacing-space-2); /* @kind spacing */
+  --spacing-space-20: 20; /* @kind spacing */
+  --spacing-space-24-2: var(--spacing-space-24); /* @kind spacing */
+  --spacing-space-24: 24; /* @kind spacing */
+  --spacing-space-28: 28; /* @kind spacing */
+  --spacing-space-2: 2; /* @kind spacing */
+  --spacing-space-4: 4; /* @kind spacing */
+  --spacing-space-6-2: var(--spacing-space-6); /* @kind spacing */
+  --spacing-space-6: 6; /* @kind spacing */
+  --spacing-space-8-2: var(--spacing-space-8); /* @kind spacing */
+  --spacing-space-8: 8; /* @kind spacing */
+  --spacing-space20: 20; /* @kind spacing */
+  --statu-green: rgb(77,170,19); /* @kind color */
+  --statu-pink: rgb(253,78,109); /* @kind color */
+  --statu-red: rgb(228,16,20); /* @kind color */
+  --submain-radius-inner: var(--radius-radius-12); /* @kind radius */
+  --text-base-2: rgb(34,34,34); /* @kind color */
+  --text-base-3: var(--alpha-gray-900); /* @kind color */
+  --text-base-4: rgb(34,34,34); /* @kind color */
+  --text-base: var(--alpha-gray-900); /* @kind color */
+  --text-color-theme-secondary-1: rgb(45,148,249); /* @kind color */
+  --text-invert-2: rgb(255,255,255); /* @kind color */
+  --text-invert-3: var(--alpha-white-100); /* @kind color */
+  --text-invert: var(--alpha-white-100); /* @kind color */
+  --text-tertiary-2: var(--alpha-gray-700); /* @kind color */
+  --text-tertiary: rgb(137,141,156); /* @kind color */
+  --theme-bluebasic-300: rgb(45,148,249); /* @kind color */
+  --theme-brown-300: rgb(139,100,86); /* @kind color */
+  --theme-cyan-300: rgb(3,163,178); /* @kind color */
+  --theme-darkgrey-300: rgb(74,81,112); /* @kind color */
+  --theme-deeppurple-300: rgb(132,87,212); /* @kind color */
+  --theme-orange-300: rgb(252,127,17); /* @kind color */
+  --theme-red-300: rgb(239,118,135); /* @kind color */
+  --typo-fontfamily-fontfamily-2: var(--typo-fontfamily-fontfamily); /* @kind font */
+  --typo-fontfamily-fontfamily: "Pretendard"; /* @kind font */
+  --typo-letterspacing-04: -0.4; /* @kind other */
+  --typo-letterspacing-05: -0.5; /* @kind other */
+  --typo-letterspacing-12: -1.2; /* @kind other */
+  --typo-letterspacing-15-size: var(--typo-letterspacing-04); /* @kind other */
+  --typo-letterspacing-41-size: var(--typo-letterspacing-12); /* @kind other */
+  --typo-lineheight-15-size: var(--typo-lineheight-20); /* @kind other */
+  --typo-lineheight-20: 20; /* @kind other */
+  --typo-lineheight-22: 22; /* @kind other */
+  --typo-size-15-size-2: var(--typo-size-15-size); /* @kind font */
+  --typo-size-15-size: 15; /* @kind font */
+  --typo-size-17-size: 17; /* @kind font */
+  --typo-size-body-lg: var(--size-18); /* @kind font */
+  --typo-size-body-md: var(--size-16); /* @kind font */
+  --typo-size-body-sm: var(--size-14); /* @kind font */
+  --typo-size-caption-md: var(--size-13); /* @kind font */
+  --typo-size-caption-sm: var(--size-12); /* @kind font */
+  --typo-size-headline-lg: var(--size-42); /* @kind font */
+  --typo-size-headline-md: var(--size-32); /* @kind font */
+  --typo-size-headline-sm: var(--size-32); /* @kind font */
+  --typo-size-label-lg: var(--size-16); /* @kind font */
+  --typo-size-label-md: var(--unit-16); /* @kind font */
+  --typo-size-label-sm: var(--unit-16); /* @kind font */
+  --typo-size-label-xs: var(--unit-16); /* @kind font */
+  --typo-size-title-lg: var(--size-26); /* @kind font */
+  --typo-size-title-md: var(--size-24); /* @kind font */
+  --typo-size-title-sm: var(--size-20); /* @kind font */
+  --typo-weight-medium-2: var(--typo-weight-medium); /* @kind other */
+  --typo-weight-medium: "Medium"; /* @kind other */
+  --unit-0: 0; /* @kind spacing */
+  --unit-12: 12; /* @kind spacing */
+  --unit-14: 14; /* @kind spacing */
+  --unit-16: 16; /* @kind spacing */
+  --unit-18: 18; /* @kind spacing */
+  --unit-20: 20; /* @kind spacing */
+  --unit-24: 24; /* @kind spacing */
+  --unit-28: 28; /* @kind spacing */
+  --unit-2: 2; /* @kind spacing */
+  --unit-32: 32; /* @kind spacing */
+  --unit-36: 36; /* @kind spacing */
+  --unit-40: 40; /* @kind spacing */
+  --unit-48: 48; /* @kind spacing */
+  --unit-4: 4; /* @kind spacing */
+  --unit-52: 52; /* @kind spacing */
+  --unit-56: 56; /* @kind spacing */
+  --unit-60: 60; /* @kind spacing */
+  --unit-64: 64; /* @kind spacing */
+  --unit-68: 68; /* @kind spacing */
+  --unit-72: 72; /* @kind spacing */
+  --unit-80: 80; /* @kind spacing */
+  --unit-8: 8; /* @kind spacing */
+  --unit-max: 1000; /* @kind spacing */
+  --white-white100-2: rgb(255,255,255); /* @kind color */
+  --white-white100: rgb(255,255,255); /* @kind color */
+  --width: 1920; /* @kind other */
+}
+
+:root[data-mode="mob"] {
+  --radius-radius-100-2: var(--radius-radius-100); /* @kind radius */
+  --radius-radius-4-2: var(--radius-radius-4); /* @kind radius */
+  --spacing-space-10-2: var(--spacing-space-10); /* @kind spacing */
+  --spacing-space-12-2: var(--spacing-space-12); /* @kind spacing */
+  --spacing-space-16-2: var(--spacing-space-16); /* @kind spacing */
+  --spacing-space-2-2: var(--spacing-space-2); /* @kind spacing */
+  --spacing-space-24-2: var(--spacing-space-24); /* @kind spacing */
+  --spacing-space-6-2: var(--spacing-space-6); /* @kind spacing */
+  --spacing-space-8-2: var(--spacing-space-8); /* @kind spacing */
+  --submain-radius-inner: var(--radius-radius-12); /* @kind radius */
+  --typo-fontfamily-fontfamily-2: var(--typo-fontfamily-fontfamily); /* @kind font */
+  --typo-letterspacing-15-size: var(--typo-letterspacing-04); /* @kind other */
+  --typo-letterspacing-41-size: var(--typo-letterspacing-12); /* @kind other */
+  --typo-lineheight-15-size: var(--typo-lineheight-20); /* @kind other */
+  --typo-size-15-size-2: var(--typo-size-15-size); /* @kind font */
+  --typo-weight-medium-2: var(--typo-weight-medium); /* @kind other */
+}
+
+:root[data-mode="tab"] {
+  --radius-radius-100-2: var(--radius-radius-100); /* @kind radius */
+  --radius-radius-4-2: var(--radius-radius-6); /* @kind radius */
+  --spacing-space-10-2: var(--spacing-space-12); /* @kind spacing */
+  --spacing-space-12-2: var(--spacing-space-14); /* @kind spacing */
+  --spacing-space-16-2: var(--spacing-space20); /* @kind spacing */
+  --spacing-space-2-2: var(--spacing-space-4); /* @kind spacing */
+  --spacing-space-24-2: var(--spacing-space-28); /* @kind spacing */
+  --spacing-space-6-2: var(--spacing-space-8); /* @kind spacing */
+  --spacing-space-8-2: var(--spacing-space-10); /* @kind spacing */
+  --submain-radius-inner: var(--radius-radius-14); /* @kind radius */
+  --typo-fontfamily-fontfamily-2: var(--typo-fontfamily-fontfamily); /* @kind font */
+  --typo-letterspacing-15-size: var(--typo-letterspacing-05); /* @kind other */
+  --typo-letterspacing-41-size: var(--typo-letterspacing-12); /* @kind other */
+  --typo-lineheight-15-size: var(--typo-lineheight-22); /* @kind other */
+  --typo-size-15-size-2: var(--typo-size-17-size); /* @kind font */
+  --typo-weight-medium-2: var(--typo-weight-medium); /* @kind other */
+}
+
+:root[data-mode="deeppurple"] {
+  --secondary-1: var(--theme-deeppurple-300); /* @kind color */
+}
+
+:root[data-mode="cyan"] {
+  --secondary-1: var(--theme-cyan-300); /* @kind color */
+}
+
+:root[data-mode="orange"] {
+  --secondary-1: var(--theme-orange-300); /* @kind color */
+}
+
+:root[data-mode="red"] {
+  --secondary-1: var(--theme-red-300); /* @kind color */
+}
+
+:root[data-mode="brown"] {
+  --secondary-1: var(--theme-brown-300); /* @kind color */
+}
+
+:root[data-theme="dark"], .dark {
+  --secondary-1: var(--theme-darkgrey-300); /* @kind color */
+}

@@ -1,0 +1,50 @@
+/* SERICEO webfonts.
+   Korean UI: Pretendard (primary) + Noto Sans KR.
+   Latin/numerals: Inter + Noto Sans.
+   Pretendard is declared via explicit @font-face pointing at the jsDelivr CDN
+   binaries; Noto Sans KR / Noto Sans / Inter load from Google Fonts.
+   For a fully offline build, swap these src URLs for local font files. */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/woff2/Pretendard-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/woff2/Pretendard-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/woff2/Pretendard-SemiBold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/woff2/Pretendard-Bold.woff2") format("woff2");
+}
+
+:root {
+  /* Font families */
+  --font-pretendard: "Pretendard", "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-noto-kr: "Noto Sans KR", "Pretendard", sans-serif;
+  --font-noto: "Noto Sans", "Inter", sans-serif;
+  --font-inter: "Inter", "Noto Sans", sans-serif;
+
+  /* Primary UI font — Korean-first product */
+  --font-sans: var(--font-pretendard);
+  /* Latin display / numerals (stats, scores, dates) */
+  --font-display: var(--font-inter);
+}

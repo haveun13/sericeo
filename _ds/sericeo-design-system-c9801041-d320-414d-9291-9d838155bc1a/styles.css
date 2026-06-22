@@ -1,0 +1,8 @@
+/* SERICEO Design System — global CSS entry point.
+   Consumers link THIS file. Keep it to @import lines only. */
+
+@import "./tokens/fonts.css";
+@import "./tokens/fig-tokens.css";
+@import "./tokens/semantic.css";
+@import "./tokens/base.css";
+@import "./components/navigation/fig-assets.css";

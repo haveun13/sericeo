@@ -1,0 +1,127 @@
+/* SERICEO semantic tokens — authoring layer.
+   Friendly, px-based aliases derived from the Figma Variable system (see fig-tokens.css).
+   Components in this design system are authored against THESE names. */
+
+:root {
+  /* ───────────── Brand / Primary ───────────── */
+  --seri-blue:        rgb(24, 93, 224);   /* color/primary/b300 — primary action blue */
+  --seri-blue-strong: rgb(17, 65, 157);   /* b400 — pressed / strong */
+  --seri-blue-deep:   rgb(15, 57, 137);   /* b500 */
+  --seri-blue-light:  rgb(121, 161, 237); /* b100 */
+  --seri-blue-tint:   rgb(232, 239, 252); /* b50 — tint surface */
+  --seri-cyan:        rgb(45, 148, 249);  /* theme/bluebasic 300 — accent / link blue */
+
+  /* Logo / link blue as seen in product */
+  --seri-link:        rgb(13, 101, 248);
+
+  /* ───────────── Ink / Text ───────────── */
+  --ink-900: rgb(34, 34, 34);    /* #222 — primary text */
+  --ink-800: rgb(51, 51, 51);    /* #333 — strong body */
+  --ink-700: rgb(85, 85, 85);    /* #555 — body */
+  --ink-600: rgb(102, 102, 102); /* #666 — secondary */
+  --ink-500: rgb(120, 120, 120); /* muted */
+  --ink-400: rgb(133, 133, 133); /* #858585 — caption / placeholder */
+  --ink-300: rgb(154, 154, 154); /* #9a9a9a — disabled text */
+
+  --text-primary:   var(--ink-900);
+  --text-secondary: var(--ink-600);
+  --text-tertiary:  var(--ink-400);
+  --text-invert:    rgb(255, 255, 255);
+
+  /* ───────────── Lines / Borders ───────────── */
+  --line-100: rgb(237, 237, 237); /* lightest divider */
+  --line-200: rgb(225, 225, 225); /* #e1e1e1 — default border */
+  --line-300: rgb(222, 222, 222);
+  --line-400: rgb(204, 204, 204); /* control border */
+  --border-default: var(--line-200);
+
+  /* ───────────── Surfaces / Backgrounds ───────────── */
+  --surface:        rgb(255, 255, 255);
+  --surface-sunken: rgb(245, 246, 248); /* bg/gray/50 — page sunken */
+  --surface-gray:   rgb(245, 245, 245); /* #f5f5f5 */
+  --surface-beige:  rgb(245, 243, 241); /* #f5f3f1 — warm content bg */
+  --surface-tint:   rgb(232, 239, 252); /* primary tint */
+  --surface-dark:   rgb(0, 0, 0);       /* GNB header */
+  --surface-ink:    rgb(34, 34, 34);    /* dark sections / footer */
+  --band-green:     rgb(31, 58, 48);    /* top promo band (경영의 脈) */
+
+  /* ───────────── Status ───────────── */
+  --status-green: rgb(77, 170, 19);
+  --status-red:   rgb(228, 16, 20);
+  --status-pink:  rgb(253, 78, 109);
+  --status-info:  var(--seri-blue);
+
+  /* ───────────── Theme accents (category colors) ───────────── */
+  --theme-bluebasic:  rgb(45, 148, 249);
+  --theme-deeppurple: rgb(132, 87, 212);
+  --theme-cyan:       rgb(3, 163, 178);
+  --theme-orange:     rgb(252, 127, 17);
+  --theme-red:        rgb(239, 118, 135);
+  --theme-brown:      rgb(139, 100, 86);
+  --theme-darkgrey:   rgb(74, 81, 112);
+
+  /* ───────────── Radius (px) ───────────── */
+  --radius-4:   4px;
+  --radius-6:   6px;
+  --radius-8:   8px;
+  --radius-10:  10px;
+  --radius-12:  12px;
+  --radius-14:  14px;
+  --radius-16:  16px;
+  --radius-pill: 100px;
+  --radius-full: 9999px;
+
+  /* ───────────── Spacing (px) ───────────── */
+  --space-2:  2px;
+  --space-4:  4px;
+  --space-6:  6px;
+  --space-8:  8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-14: 14px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-28: 28px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+  --space-64: 64px;
+  --space-80: 80px;
+
+  /* ───────────── Type scale (px) ───────────── */
+  --fs-caption-sm: 12px;
+  --fs-caption:    13px;
+  --fs-body-sm:    14px;
+  --fs-body:       16px;
+  --fs-body-lg:    18px;
+  --fs-title-sm:   20px;
+  --fs-title:      24px;
+  --fs-title-lg:   26px;
+  --fs-headline:   32px;
+  --fs-headline-lg: 42px;
+  --fs-display:    60px;
+
+  /* Weights */
+  --fw-regular: 400; /* @kind font */
+  --fw-medium:  500; /* @kind font */
+  --fw-semibold: 600; /* @kind font */
+  --fw-bold:    700; /* @kind font */
+
+  /* Letter spacing — Korean text tightens slightly */
+  --tracking-tight: -0.4px;
+  --tracking-tighter: -0.5px;
+  --tracking-display: -1.2px;
+
+  /* ───────────── Elevation ───────────── */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+  --shadow-lg: 0 8px 28px rgba(0, 0, 0, 0.12);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.06);
+
+  /* ───────────── Layout ───────────── */
+  --gnb-height: 80px;
+  --content-max: 1400px;
+  --page-gutter: 80px;
+}
